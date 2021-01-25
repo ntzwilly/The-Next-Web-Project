@@ -1,0 +1,249 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav-one {
+  display: flex;
+  background-color: rgb(19,19,19);
+  height: 32px;
+  width: 100%;
+  overflow: hidden;
+  position: relative
+}
+
+.nav-one ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.nav-one a{
+  text-decoration: none;
+  margin: 5px;
+  font-size: small;
+  color: rgba(255, 255, 255, 0.692);
+  font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+}
+
+.nav-one a:hover {
+  color: white;
+}
+
+.nav-one .active a {
+  color: white;
+}
+
+.submenu1 {
+  display: none;
+}
+
+.left-menu ul li:hover .submenu1 {
+  display: block;
+  position: absolute;
+  background: rgb(19,19,19);
+  margin-top: 1px;
+  margin-left: 15px;
+  padding: 10px;
+}
+
+.left-menu ul li:hover .submenu1 ul {
+  display: block;
+}
+ 
+.left-menu {
+  display: flex;
+  align-items: center;
+  width: 70%;
+  margin-left: 15px;
+}
+  
+.right-menu {
+  display: flex;
+  justify-content: flex-end;  
+  align-items: center;
+  width: 30%;
+  margin-right: 15px;
+}
+
+.nav-two {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(254,254,254);
+  height: 45px;
+  overflow: hidden;
+  width: 100%;
+  position: absolute;
+  top: 32px;
+}
+  
+.nav-two ul {
+  display: flex;
+  list-style: none;
+  margin-left: 10px;
+}
+
+.nav-two a {
+  text-decoration: none;
+  margin: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 14px;
+  color: rgb(170,170,170);
+  font-family: "Shentox", sans-serif;
+}
+
+.search {
+  margin-right: 15px;
+  opacity: 0.5;
+}
+
+.yellow-line a {
+  background-color: rgb(255,221,51);
+  display: block;
+  text-decoration: none;
+  padding: 6px 20px;
+  font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+  font-size: 13px; 
+  font-weight: 400;
+  line-height: 21px;
+  color: black;
+  position: absolute;
+  width: 100%;
+  top: 77px;
+}
+
+.top-images-container {
+  display: grid;
+  height: 70vh;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "left-image left-image right-top-image" 
+                       "left-image left-image right-bottom-image";
+  grid-gap: 0.5rem;
+  margin: 80px 10px 60px 10px;
+}
+
+.left-image {
+  grid-area: left-image;
+  background: url(images/kia-niro-tesla-model-s-ev-future-electric-car-jd-power.jpg);
+  background-size: cover;
+  color: white;
+}
+
+.right-top-image {
+  background-color: chartreuse;
+  grid-area: right-top-image;
+  background-image: url(images/google-logo-podium-796x398.png);
+  background-size: cover;
+  color: white;
+}
+
+.right-bottom-image {
+  background-color: crimson; 
+  grid-area: right-bottom-image;
+  background-image: url(images/image);
+  background-size: cover;
+  color: white
+}
+
+.news-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "news1 news2 news3 news4" 
+                       "news5 news6 news7 news8";
+
+  grid-gap: 0.5rem;
+  margin: 25px 100px 50px 100px;
+}
+
+.news-container h3 {
+  font-family:  "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.news-container span {
+  font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 28px;
+  color: rgb(170, 170, 170);
+}
+
+.news1 {
+  grid-area: news1;
+  background-size: cover;
+}
+
+.news2 {
+  grid-area: news2;
+  background-size: cover;
+}
+
+.news3 {
+  grid-area: news3;
+  background-size: cover;
+}
+
+.news4 {
+  grid-area: news4;
+  background-size: cover;
+}
+
+.news5 {
+  grid-area: news5;
+  background-size: cover;
+}
+
+.news6 {
+  grid-area: news6;
+  background-size: cover;
+}
+
+.news7 {
+  grid-area: news7;
+  background-size: cover;
+}
+
+.news8 {
+  grid-area: news8;
+  background-size: cover;
+} 
+
+.news-image {
+  width: 100%;  
+  height: 140px;
+}
+
+.news-title h2 {
+  margin-left: 100px;
+  font-family: Avalon, sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 30.8px;
+  color: rgb(255, 68, 34);
+}
+
+@media only screen and (max-width: 600px) {
+.top-images-container {
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: "left-image" "right-top-image" "right-bottom-image";
+}
+}
+
+@media only screen and (max-width: 1100px){
+.news-container {
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: "news1 news2 news3" 
+                       "news4 news5 news6"
+                       "news7 news8 news2    ";  
+  grid-gap: 0.5rem;
+  margin: 25px 100px 50px 100px;
+}
+}
