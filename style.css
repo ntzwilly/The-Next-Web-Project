@@ -395,10 +395,11 @@ margin: 0px auto;
 /* my css */
 .section3-container {
   display: flex;
-    flex: 0 1 auto;
-    flex-flow: row wrap;
-   margin-left: 35px;
-   margin-right: 35px;
+  flex: 0 1 auto;
+  flex-flow: row wrap;
+  margin-left: 35px;
+  margin-right: 35px;
+
 } 
 
 /* @media (min-width: 768px){
