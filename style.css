@@ -135,7 +135,8 @@
 
 .left-image {
   grid-area: left-image;
-  background: url(images/kia-niro-tesla-model-s-ev-future-electric-car-jd-power.jpg);
+  background: linear-gradient(to right bottom, #bd2f2f, #192127);
+  background-image: url('images/kia-niro-tesla-model-s-ev-future-electric-car-jd-power.jpg');
   background-size: cover;
   color: white;
 }
