@@ -360,8 +360,8 @@
 }
 
 .circle {
-  width: 50px;
-  height: 50px;
+  width: 45px;
+  height: 45px;
   background-color: rgb(51,51,51);
   border-radius: 50%;
   margin: 10px;
@@ -369,6 +369,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.circle a {
+  color: #fff;
 }
 
 .circle:hover {
@@ -390,6 +394,10 @@
   font-weight: 500;
   line-height: 24px;
   margin: auto 10px;
+}
+
+.footer-links a:hover {
+  color: white;
 }
 
 
