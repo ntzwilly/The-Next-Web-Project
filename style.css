@@ -245,7 +245,7 @@
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   grid-template-areas: "left-image" "right-top-image" "right-bottom-image";
-  margin-top: 200px;
+  margin-top: 102px;
 }
 }
 
@@ -265,9 +265,6 @@
 }
 
 @media only screen and (max-width: 768px) {
-.nav-two a {
-  display: none;
-}
 .nav-one {
   display: none;
 }
@@ -279,8 +276,10 @@
 }
 .yellow-line a {
   background-color: rgb(255,221,51);
-  display: block;
+  display: flex;
   text-decoration: none;
+  justify-content: center;
+  align-items: center;
   padding: 6px 20px;
   font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
   font-size: 13px; 
@@ -294,26 +293,14 @@
 }
 .nav-three {
  display: flex;
- justify-items: center;
+ justify-content: space-between;
+ align-items: center;
  width: 100%;
- position: fixed;
  background-color: white;
- margin-top: 0px;
+ top: 0px;
+ margin-right: 10px;
+ position: fixed;
 }
-
-.nav-three ul li{
-  display: flex;
-  justify-content: space-between;
-}
-
-.nav-three ul li a {
-float: right;
-}
-
-.top-images-container {
-margin: 0px auto;
-}
-
 }
 
 @media only screen and (max-width: 768px) {
