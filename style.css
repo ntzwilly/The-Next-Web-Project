@@ -240,6 +240,185 @@
   color: rgb(255, 68, 34);
 }
 
+.deals-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "deal1 deal2 deal3 deal4" 
+                       "deal5 deal6 deal7 deal8";
+
+  grid-gap: 0.5rem;
+  margin: 25px 100px 50px 100px;
+}
+
+.deals-container h3 {
+  font-family:  "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.deals-container span {
+  font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 28px;
+  color: rgb(170, 170, 170);
+}
+
+.deal1 {
+  grid-area: deal1;
+  background-size: cover;
+}
+
+.deal2 {
+  grid-area: deal2;
+  background-size: cover;
+}
+
+.deal3 {
+  grid-area: deal3;
+  background-size: cover;
+}
+
+.deal4 {
+  grid-area: deal4;
+  background-size: cover;
+}
+
+.deal5 {
+  grid-area: deal5;
+  background-size: cover;
+}
+
+.deal6 {
+  grid-area: deal6;
+  background-size: cover;
+}
+
+.deal7 {
+  grid-area: deal7;
+  background-size: cover;
+}
+
+.deal8 {
+  grid-area: deal8;
+  background-size: cover;
+} 
+
+.deal-image {
+  width: 100%;  
+  height: 200px;
+}
+
+.deals-title h2 {
+  display: inline;
+  margin-left: 100px;
+  font-family: Avalon, sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 32px;
+  color: rgb(255, 68, 34);
+}
+
+.deals-title p {
+  display: inline;
+  position: absolute;
+  right: 100px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+  color: rgb(255, 68, 34);
+}
+
+.deals-container p {
+  display: inline;
+  text-decoration: line-through;
+}
+
+.footer-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-one {
+  width: 100%;
+  height: 170px;
+  background-color: rgb(19,19,19);
+}
+
+.footer-two {
+  width: 100%;
+  height: 90px;
+  background-color: rgb(0,0,0);
+}
+
+.icons-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  background-color: rgb(51,51,51);
+  border-radius: 50%;
+  margin: 10px;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle:hover {
+  background-color: rgb(0,0,0);
+}
+
+.footer-links ul{
+  display: flex;
+  justify-content: center;
+  list-style: none; 
+  margin-top: 20px;
+}
+
+.footer-links a{
+  color:rgb(170, 170, 170);
+  text-decoration: none;
+  font-family: Shentox, sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 24px;
+  margin: auto 10px;
+}
+
+
+.footer-two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
+
+.footer-logo img {
+  height: 8px;
+}
+
+.footer-text p {
+  font-family:  "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+  color: rgb(170, 170, 170);
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 19.5px;
+}
+
+.footer-logo2 img {
+  height: 8px;
+}
+
+.footer-two div {
+  margin: 2px;
+}
+
 @media only screen and (max-width: 768px) {
 .top-images-container {
   grid-template-columns: 1fr;
@@ -261,6 +440,19 @@
 
   grid-gap: 0.5rem;
   margin: 25px 100px 50px 100px;
+}
+
+.deals-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; 
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: "deal1 deal2 deal3" 
+                       "deal4 deal5 deal6"
+                       "deal7 deal8 deal9";
+  width: auto;
+
+  grid-gap: 0.5rem;
+  margin: 25px 20px 50px 20px;
 }
 }
 
@@ -378,6 +570,82 @@
   float: left;
   margin-right: 10px;
 }
+
+.deals-container {
+  display: grid;
+  grid-template-columns:1fr; 
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas: "deal1" "deal2" "deal3" "deal4" "deal5" "deal6" "deal7" "deal8" "deal9";
+  width: 100%;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.deal-title h2 {
+  margin-left: 20px;
+  font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+  font-size: 28px;
+  margin-top: 20px;
+  font-weight: 700px;
+  line-height: 18px;
+}
+ 
+.deal1 img {
+  width: 80px;
+  height: 80px;
+  float: left;
+  margin-right: 10px;
+}
+
+.deal2 img {
+  width: 80px;
+  height: 80px;
+  float: left;
+  margin-right: 10px;
+}
+
+.deal3 img {
+  width: 80px;
+  height: 80px;
+  float: left;
+  margin-right: 10px;
+}
+
+.deal4 img {
+  width: 80px;
+  height: 80px;
+  float: left;
+  margin-right: 10px;
+}
+
+.deal5 img {
+  width: 80px;
+  height: 80px;
+  float: left;
+  margin-right: 10px;
+}
+
+.deal6 img {
+  width: 80px;
+  height: 80px;
+  float: left;
+  margin-right: 10px;
+}
+
+.deal7 img {
+  width: 80px;
+  height: 80px;
+  float: left;
+  margin-right: 10px;
+}
+
+.deal8 img {
+  width: 80px;
+  height: 80px;
+  float: left;
+  margin-right: 10px;
+}
+
 }
 /* my css */
 .section3-container {
@@ -386,6 +654,7 @@
   flex-flow: row wrap;
   margin-left: 35px;
   margin-right: 35px;
+
 
 } 
 
