@@ -401,11 +401,11 @@ margin: 0px auto;
    margin-right: 35px;
 } 
 
-@media (min-width: 768px){
+/* @media (min-width: 768px){
 .section3-container {
     margin-bottom: 3em;
 }
-}
+} */
 .section3-header {
   color: red;
   text-decoration: none;
@@ -484,4 +484,6 @@ margin: 0px auto;
   color: #000;
   background: rgba(255,68,34,.08);
   margin: 0;
+  font-family: Avalon,sans-serif;
+  text-decoration: none;
 }
