@@ -25,11 +25,44 @@
   color: rgba(255, 255, 255, 0.692);
   font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
 }
-
+.yellow-line a {
+  background-color: rgb(255, 221, 51);
+  display: block;
+  text-decoration: none;
+  padding: 6px 20px;
+  font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 21px;
+  color: black;
+  position: absolute;
+  width: 100%;
+  top: 77px;
+}
+.circle a {
+  color: #fff;
+}
+.footer-links a {
+  color: rgb(170, 170, 170);
+  text-decoration: none;
+  font-family: Shentox, sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 24px;
+  margin: auto 10px;
+}
 .nav-one a:hover {
   color: white;
 }
-
+.nav-two a {
+  text-decoration: none;
+  margin: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 14px;
+  color: rgb(170, 170, 170);
+  font-family: "Shentox", sans-serif;
+}
 .nav-one .active a {
   color: white;
 }
@@ -46,6 +79,19 @@
   margin-left: 15px;
   padding: 10px;
 }
+.nav-two ul {
+  display: flex;
+  justify-content: flex-start;
+  list-style: none;
+  margin-left: 10px;
+}
+
+.footer-links ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin-top: 20px;
+}
 
 .left-menu ul li:hover .submenu1 ul {
   display: block;
@@ -57,6 +103,7 @@
   width: 70%;
   margin-left: 15px;
 }
+
 .right-menu {
   display: flex;
   justify-content: flex-end;
@@ -77,12 +124,7 @@
   top: 32px;
 }
 
-.nav-two ul {
-  display: flex;
-  justify-content: flex-start;
-  list-style: none;
-  margin-left: 10px;
-}
+
 
 .nav-two img {
   float: left;
@@ -90,35 +132,14 @@
   display: none;
 }
 
-.nav-two a {
-  text-decoration: none;
-  margin: 10px;
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 14px;
-  color: rgb(170, 170, 170);
-  font-family: "Shentox", sans-serif;
-}
+
 
 .search {
   margin-right: 15px;
   opacity: 0.5;
 }
 
-.yellow-line a {
-  background-color: rgb(255, 221, 51);
-  display: block;
-  text-decoration: none;
-  padding: 6px 20px;
-  font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
-  font-size: 13px;
-  font-weight: 400;
-  line-height: 21px;
-  color: black;
-  position: absolute;
-  width: 100%;
-  top: 77px;
-}
+
 
 .top-images-container {
   display: grid;
@@ -163,7 +184,6 @@
   grid-template-areas:
     "news1 news2 news3 news4"
     "news5 news6 news7 news8";
-
   grid-gap: 0.5rem;
   margin: 25px 100px 50px 100px;
 }
@@ -248,7 +268,6 @@
   grid-template-areas:
     "deal1 deal2 deal3 deal4"
     "deal5 deal6 deal7 deal8";
-
   grid-gap: 0.5rem;
   margin: 25px 100px 50px 100px;
 }
@@ -373,30 +392,13 @@
   align-items: center;
 }
 
-.circle a {
-  color: #fff;
-}
+
 
 .circle:hover {
   background-color: rgb(0, 0, 0);
 }
 
-.footer-links ul {
-  display: flex;
-  justify-content: center;
-  list-style: none;
-  margin-top: 20px;
-}
 
-.footer-links a {
-  color: rgb(170, 170, 170);
-  text-decoration: none;
-  font-family: Shentox, sans-serif;
-  font-size: 13px;
-  font-weight: 500;
-  line-height: 24px;
-  margin: auto 10px;
-}
 
 .footer-links a:hover {
   color: white;
@@ -441,18 +443,6 @@
   .news-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-areas:
       "news1 news2 news3"
@@ -466,18 +456,6 @@
 
   .deals-container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-areas:
@@ -509,18 +487,6 @@
     align-items: center;
     padding: 6px 20px;
     font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
-    font-size: 13px;
-    font-size: 13px;
-    font-size: 13px;
-    font-size: 13px;
-    font-size: 13px;
-    font-size: 13px;
-    font-size: 13px;
-    font-size: 13px;
-    font-size: 13px;
-    font-size: 13px;
-    font-size: 13px;
-    font-size: 13px;
     font-size: 13px;
     font-weight: 400;
     line-height: 21px;
