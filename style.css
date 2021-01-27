@@ -52,6 +52,22 @@
   text-decoration: none;
 }
 
+.section4-subtitle1 a {
+  font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 22px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+.section3-items {
+  position: relative;
+  margin-top: 20px;
+  background-color: pink;
+  max-width: 280px;
+}
+
 .footer-links a {
   color: rgb(170, 170, 170);
   text-decoration: none;
@@ -711,18 +727,13 @@
   overflow: hidden;
   text-overflow: ellipsis;
 }
-.section3-items {
-  position: relative;
-  margin-top: 20px;
-  background-color: pink;
-  margin: 10px;
-  max-width: 280px;
-}
+
 @media (min-width: 768px) {
   .sections3-items {
     flex: 75%;
   }
 }
+
 @media (min-width: 1020px) {
   .sections3-items {
     flex: 100%;
@@ -733,15 +744,16 @@
   text-decoration: none;
   line-height: 30px;
 }
+
 .story-line {
   border-top: 1px solid rgba(255, 68, 34, 0.25);
   margin-top: 10px;
   padding-top: 10px;
-  padding: 16px;
   color: #aaa;
   font-size: 12px;
   line-height: 18px;
 }
+
 .story-line li {
   display: block;
   float: left;
@@ -755,6 +767,7 @@
   font-size: 100%;
   vertical-align: baseline;
 }
+
 .section3-items img {
   width: 60px;
   min-width: 60px;
@@ -768,6 +781,7 @@
   left: 0;
   z-index: 10;
 }
+
 .section3-fund {
   padding: 10.6666666667px 16px 10.6666666667px 84px;
   color: #000;
@@ -813,15 +827,6 @@
   text-decoration: none;
 }
 
-.section4-subtitle1 a {
-  font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
-  font-size: 20px;
-  font-weight: 700;
-  line-height: 22px;
-  color: rgb(255, 255, 255);
-  text-decoration: none;
-}
-
 .section4-subtitle1 h3 {
   font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
   font-size: 14px;
@@ -835,7 +840,6 @@
   background-size: cover;
   background-image: url(./images/amplified-368x276.jpg);
   min-height: 300px;
-  background-size: cover;
   display: flex;
   height: 100%;
   justify-content: flex-end;
@@ -850,7 +854,6 @@
   background-size: cover;
   background-image: url(./images/google-logo-podium-796x398.png);
   min-height: 300px;
-  background-size: cover;
   display: flex;
   height: 100%;
   justify-content: flex-end;
@@ -865,7 +868,6 @@
   background-size: cover;
   background-image: url(./images/kia-niro-tesla-model-s-ev-future-electric-car-jd-power.jpg);
   min-height: 300px;
-  background-size: cover;
   display: flex;
   height: 100%;
   justify-content: flex-end;
@@ -880,7 +882,6 @@
   background-size: cover;
   background-image: url(./images/slack-distraction-productivity-gq-258x135.png);
   min-height: 300px;
-  background-size: cover;
   display: flex;
   height: 100%;
   justify-content: flex-end;
@@ -895,7 +896,6 @@
   background-size: cover;
   background-image: url(./images/Untitled-design-2021-01-22T103446.744-516x270\\.png);
   min-height: 300px;
-  background-size: cover;
   display: flex;
   height: 100%;
   justify-content: flex-end;
@@ -910,7 +910,6 @@
   background-size: cover;
   background-image: url(./images/Untitled-design-2021-01-22T134049.708-516x270\\.png);
   min-height: 300px;
-  background-size: cover;
   display: flex;
   height: 100%;
   justify-content: flex-end;
@@ -934,12 +933,12 @@
   padding: 10px;
   align-items: flex-start;
 }
+
 .section4-subtitle9 {
   grid-area: section4-subtitle9;
   background-size: cover;
   background-image: url(./images/Snag_74c520-796x421.png);
   min-height: 300px;
-  background-size: cover;
   display: flex;
   height: 100%;
   justify-content: flex-end;
@@ -956,6 +955,7 @@
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   }
 }
+
 @media only screen and (max-width: 1020px) {
   .section4-container {
     display: grid;
@@ -969,11 +969,13 @@
   flex-direction: row;
   margin: 0;
 }
+
 .section4-small-title {
   margin: auto;
   padding: 15px;
   font-size: 14px;
 }
+
 .section4-second-container img {
   width: 100px;
   height: 100px;
