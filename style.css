@@ -68,6 +68,11 @@
   max-width: 280px;
 }
 
+.sections3-items a {
+  text-decoration: none;
+  line-height: 30px;
+}
+
 .footer-links a {
   color: rgb(170, 170, 170);
   text-decoration: none;
@@ -476,7 +481,6 @@
       "deal4 deal5 deal6"
       "deal7 deal8 deal9";
     width: auto;
-
     grid-gap: 0.5rem;
     margin: 25px 20px 50px 20px;
   }
@@ -486,12 +490,15 @@
   .nav-one {
     display: none;
   }
+  
   .nav-two img {
     display: block;
   }
+
   .nav-two {
     display: none;
   }
+
   .yellow-line a {
     background-color: rgb(255, 221, 51);
     display: flex;
@@ -740,11 +747,6 @@
   }
 }
 
-.sections3-items a {
-  text-decoration: none;
-  line-height: 30px;
-}
-
 .story-line {
   border-top: 1px solid rgba(255, 68, 34, 0.25);
   margin-top: 10px;
@@ -790,6 +792,7 @@
   font-family: Avalon, sans-serif;
   text-decoration: none;
 }
+
 .section4-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -816,7 +819,6 @@
   background-size: cover;
   background-image: url(./images/1-copy-38-516x270.jpg);
   min-height: 250px;
-  background-size: cover;
   display: flex;
   height: 100%;
   justify-content: flex-end;
@@ -924,7 +926,6 @@
   background-size: cover;
   background-image: url(./images/robotgod-499x270.jpg);
   min-height: 300px;
-  background-size: cover;
   display: flex;
   height: 100%;
   justify-content: flex-end;
