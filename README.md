@@ -4,7 +4,7 @@
 
 > Copy of a page from TNW website
 
-![screenshot]()
+![TNWscreenshot](https://user-images.githubusercontent.com/22328716/106025754-f5dfbc00-60c0-11eb-9554-28ee6994e549.png)
 
 This project includes the design of a responsive web page using Media Queries CSS grid and flexbox
 
@@ -15,6 +15,19 @@ This project includes the design of a responsive web page using Media Queries CS
 ## Live Demo
 
 [Live Demo Link](https://ntzwilly.github.io/The-Next-Web-Project/)
+
+## Getting Started
+
+### Setup
+
+To get a local copy up and running follow these simple example steps.
+
+- Go to https://git@github.com:ntzwilly/The-Next-Web-Project.git
+- Click on code and copy the html code.
+- Use git bash to clone this repository on your local machine.
+- Run git checkout -b your-braanch-name Make your contributions
+- Push your branch up to your forked repository
+- Open a Pull Request with a detailed description to the development branch of the original project for a review
 
 
 ### Prerequisites
