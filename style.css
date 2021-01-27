@@ -135,7 +135,8 @@
 
 .left-image {
   grid-area: left-image;
-  background: url(images/kia-niro-tesla-model-s-ev-future-electric-car-jd-power.jpg);
+  background: linear-gradient(to right bottom, #bd2f2f, #192127);
+  background-image: url('images/kia-niro-tesla-model-s-ev-future-electric-car-jd-power.jpg');
   background-size: cover;
   color: white;
 }
@@ -240,12 +241,199 @@
   color: rgb(255, 68, 34);
 }
 
+.deals-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "deal1 deal2 deal3 deal4" 
+                       "deal5 deal6 deal7 deal8";
+
+  grid-gap: 0.5rem;
+  margin: 25px 100px 50px 100px;
+}
+
+.deals-container h3 {
+  font-family:  "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.deals-container span {
+  font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 28px;
+  color: rgb(170, 170, 170);
+}
+
+.deal1 {
+  grid-area: deal1;
+  background-size: cover;
+}
+
+.deal2 {
+  grid-area: deal2;
+  background-size: cover;
+}
+
+.deal3 {
+  grid-area: deal3;
+  background-size: cover;
+}
+
+.deal4 {
+  grid-area: deal4;
+  background-size: cover;
+}
+
+.deal5 {
+  grid-area: deal5;
+  background-size: cover;
+}
+
+.deal6 {
+  grid-area: deal6;
+  background-size: cover;
+}
+
+.deal7 {
+  grid-area: deal7;
+  background-size: cover;
+}
+
+.deal8 {
+  grid-area: deal8;
+  background-size: cover;
+} 
+
+.deal-image {
+  width: 100%;  
+  height: 200px;
+}
+
+.deals-title h2 {
+  display: inline;
+  margin-left: 100px;
+  font-family: Avalon, sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 32px;
+  color: rgb(255, 68, 34);
+}
+
+.deals-title p {
+  display: inline;
+  position: absolute;
+  right: 100px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+  color: rgb(255, 68, 34);
+}
+
+.deals-container p {
+  display: inline;
+  text-decoration: line-through;
+}
+
+.footer-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-one {
+  width: 100%;
+  height: 170px;
+  background-color: rgb(19,19,19);
+}
+
+.footer-two {
+  width: 100%;
+  height: 90px;
+  background-color: rgb(0,0,0);
+}
+
+.icons-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.circle {
+  width: 45px;
+  height: 45px;
+  background-color: rgb(51,51,51);
+  border-radius: 50%;
+  margin: 10px;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle a {
+  color: #fff;
+}
+
+.circle:hover {
+  background-color: rgb(0,0,0);
+}
+
+.footer-links ul{
+  display: flex;
+  justify-content: center;
+  list-style: none; 
+  margin-top: 20px;
+}
+
+.footer-links a{
+  color:rgb(170, 170, 170);
+  text-decoration: none;
+  font-family: Shentox, sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 24px;
+  margin: auto 10px;
+}
+
+.footer-links a:hover {
+  color: white;
+}
+
+
+.footer-two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
+
+.footer-logo img {
+  height: 8px;
+}
+
+.footer-text p {
+  font-family:  "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+  color: rgb(170, 170, 170);
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 19.5px;
+}
+
+.footer-logo2 img {
+  height: 8px;
+}
+
+.footer-two div {
+  margin: 2px;
+}
+
 @media only screen and (max-width: 768px) {
 .top-images-container {
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   grid-template-areas: "left-image" "right-top-image" "right-bottom-image";
-  margin-top: 200px;
+  margin-top: 102px;
 }
 }
 
@@ -262,12 +450,22 @@
   grid-gap: 0.5rem;
   margin: 25px 100px 50px 100px;
 }
+
+.deals-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; 
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: "deal1 deal2 deal3" 
+                       "deal4 deal5 deal6"
+                       "deal7 deal8 deal9";
+  width: auto;
+
+  grid-gap: 0.5rem;
+  margin: 25px 20px 50px 20px;
+}
 }
 
 @media only screen and (max-width: 768px) {
-.nav-two a {
-  display: none;
-}
 .nav-one {
   display: none;
 }
@@ -279,8 +477,10 @@
 }
 .yellow-line a {
   background-color: rgb(255,221,51);
-  display: block;
+  display: flex;
   text-decoration: none;
+  justify-content: center;
+  align-items: center;
   padding: 6px 20px;
   font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
   font-size: 13px; 
@@ -294,26 +494,14 @@
 }
 .nav-three {
  display: flex;
- justify-items: center;
+ justify-content: space-between;
+ align-items: center;
  width: 100%;
- position: fixed;
  background-color: white;
- margin-top: 0px;
+ top: 0px;
+ margin-right: 10px;
+ position: fixed;
 }
-
-.nav-three ul li{
-  display: flex;
-  justify-content: space-between;
-}
-
-.nav-three ul li a {
-float: right;
-}
-
-.top-images-container {
-margin: 0px auto;
-}
-
 }
 
 @media only screen and (max-width: 768px) {
@@ -391,6 +579,82 @@ margin: 0px auto;
   float: left;
   margin-right: 10px;
 }
+
+.deals-container {
+  display: grid;
+  grid-template-columns:1fr; 
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas: "deal1" "deal2" "deal3" "deal4" "deal5" "deal6" "deal7" "deal8" "deal9";
+  width: 100%;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.deal-title h2 {
+  margin-left: 20px;
+  font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+  font-size: 28px;
+  margin-top: 20px;
+  font-weight: 700px;
+  line-height: 18px;
+}
+ 
+.deal1 img {
+  width: 80px;
+  height: 80px;
+  float: left;
+  margin-right: 10px;
+}
+
+.deal2 img {
+  width: 80px;
+  height: 80px;
+  float: left;
+  margin-right: 10px;
+}
+
+.deal3 img {
+  width: 80px;
+  height: 80px;
+  float: left;
+  margin-right: 10px;
+}
+
+.deal4 img {
+  width: 80px;
+  height: 80px;
+  float: left;
+  margin-right: 10px;
+}
+
+.deal5 img {
+  width: 80px;
+  height: 80px;
+  float: left;
+  margin-right: 10px;
+}
+
+.deal6 img {
+  width: 80px;
+  height: 80px;
+  float: left;
+  margin-right: 10px;
+}
+
+.deal7 img {
+  width: 80px;
+  height: 80px;
+  float: left;
+  margin-right: 10px;
+}
+
+.deal8 img {
+  width: 80px;
+  height: 80px;
+  float: left;
+  margin-right: 10px;
+}
+
 }
 /* my css */
 .section3-container {
@@ -399,6 +663,7 @@ margin: 0px auto;
   flex-flow: row wrap;
   margin-left: 35px;
   margin-right: 35px;
+
 
 } 
 
@@ -523,4 +788,168 @@ margin: 0px auto;
   margin: 0;
   font-family: Avalon,sans-serif;
   text-decoration: none;
+}
+.section4-container {
+  display:grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+}
+.section4-second-container {
+  background-color: thistle;
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(255,68,34,.06);
+  margin: 2px 0;
+}
+.section4-small-title {
+  flex: 1;
+  overflow: hidden;
+  padding: 10px 14px 0;
+}
+.section4-second-container img {
+  width: 100px;
+  height: 100px;
+}
+
+.section4-subtitle1 {
+  background-image: url(./images/1-copy-38-516x270.jpg);
+  min-height: 300px;
+  background-size: cover;
+  display: flex;
+  height: 100%;
+  justify-content: flex-end;
+  flex-direction: column;
+  color: white;
+  padding: 10px;
+  align-items: flex-start;
+
+}
+.section4-subtitle2 {
+  background-image: url(./images/amplified-368x276.jpg);
+  min-height: 300px;
+  background-size: cover;
+  display: flex;
+  height: 100%;
+  justify-content: flex-end;
+  flex-direction: column;
+  color: white;
+  padding: 10px;
+  align-items: flex-start;
+
+}
+.section4-subtitle3 {
+  background-image:url(./images/google-logo-podium-796x398.png);
+  min-height: 300px;
+  background-size: cover;
+  display: flex;
+  height: 100%;
+  justify-content: flex-end;
+  flex-direction: column;
+  color: white;
+  padding: 10px;
+  align-items: flex-start;
+
+
+}
+.section4-subtitle4 {
+  background-image: url(./images/kia-niro-tesla-model-s-ev-future-electric-car-jd-power.jpg);
+  min-height: 300px;
+  background-size: cover;
+  display: flex;
+  height: 100%;
+  justify-content: flex-end;
+  flex-direction: column;
+  color: white;
+  padding: 10px;
+  align-items: flex-start;
+
+}
+.section4-subtitle5 {
+  background-image: url(./images/slack-distraction-productivity-gq-258x135.png);
+  min-height: 300px;
+  background-size: cover;
+  display: flex;
+  height: 100%;
+  justify-content: flex-end;
+  flex-direction: column;
+  color: white;
+  padding: 10px;
+  align-items: flex-start;
+
+}
+.section4-subtitle6 {
+  background-image: url(./images/Untitled-design-2021-01-22T103446.744-516x270\ \(1\).png);
+  min-height: 300px;
+  background-size: cover;
+  display: flex;
+  height: 100%;
+  justify-content: flex-end;
+  flex-direction: column;
+  color: white;
+  padding: 10px;
+  align-items: flex-start;
+
+}
+.section4-subtitle7 {
+  background-image: url(./images/Untitled-design-2021-01-22T134049.708-516x270\ \(2\).png);
+  min-height: 300px;
+  background-size: cover;
+  display: flex;
+  height: 100%;
+  justify-content: flex-end;
+  flex-direction: column;
+  color: white;
+  padding: 10px;
+  align-items: flex-start;
+
+}
+.section4-subtitle8 {
+  background-image: url(./images/robotgod-499x270.jpg);
+  min-height: 300px;
+  background-size: cover;
+  display: flex;
+  height: 100%;
+  justify-content: flex-end;
+  flex-direction: column;
+  color: white;
+  padding: 10px;
+  align-items: flex-start;
+
+}
+.section4-subtitle9 {
+  background-image: url(./images/Snag_74c520-796x421.png);
+  min-height: 300px;
+  background-size: cover;
+  display: flex;
+  height: 100%;
+  justify-content: flex-end;
+  flex-direction: column;
+  color: white;
+  padding: 10px;
+  align-items: flex-start;
+
+}
+.section4-title h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    color: white;
+}
+.section4-items {
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(255, 60, 0);
+    margin: 15px 0;
+    font-size: 20px;
+    padding: 10px;
+}
+.section-title p {
+  font-size: 20px;
+}
+.section4-small-title h3 {
+  color: black;
 }
