@@ -25,6 +25,7 @@
   color: rgba(255, 255, 255, 0.692);
   font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
 }
+
 .yellow-line a {
   background-color: rgb(255, 221, 51);
   display: block;
@@ -39,9 +40,18 @@
   width: 100%;
   top: 77px;
 }
+
 .circle a {
   color: #fff;
 }
+
+.section3-right-links a {
+  font-weight: 100;
+  padding: 2px;
+  color: rgb(255, 115, 0);
+  text-decoration: none;
+}
+
 .footer-links a {
   color: rgb(170, 170, 170);
   text-decoration: none;
@@ -51,9 +61,7 @@
   line-height: 24px;
   margin: auto 10px;
 }
-.nav-one a:hover {
-  color: white;
-}
+
 .nav-two a {
   text-decoration: none;
   margin: 10px;
@@ -63,6 +71,11 @@
   color: rgb(170, 170, 170);
   font-family: "Shentox", sans-serif;
 }
+
+.nav-one a:hover {
+  color: white;
+}
+
 .nav-one .active a {
   color: white;
 }
@@ -79,6 +92,7 @@
   margin-left: 15px;
   padding: 10px;
 }
+
 .nav-two ul {
   display: flex;
   justify-content: flex-start;
@@ -124,22 +138,16 @@
   top: 32px;
 }
 
-
-
 .nav-two img {
   float: left;
   width: 100px;
   display: none;
 }
 
-
-
 .search {
   margin-right: 15px;
   opacity: 0.5;
 }
-
-
 
 .top-images-container {
   display: grid;
@@ -392,22 +400,12 @@
   align-items: center;
 }
 
-
-
 .circle:hover {
   background-color: rgb(0, 0, 0);
 }
 
-
-
 .footer-links a:hover {
   color: white;
-}
-
-.footer-two {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .footer-logo img {
@@ -453,7 +451,6 @@
     grid-gap: 0.5rem;
     margin: 25px 20px 50px 20px;
   }
-
   .deals-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -496,6 +493,7 @@
     top: 50px;
     height: 50px;
   }
+
   .nav-three {
     display: flex;
     justify-content: space-between;
@@ -524,7 +522,6 @@
     font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
     font-size: 28px;
     margin-top: 20px;
-    font-weight: 700px;
     line-height: 18px;
   }
 
@@ -599,7 +596,6 @@
     font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
     font-size: 28px;
     margin-top: 20px;
-    font-weight: 700px;
     line-height: 18px;
   }
 
@@ -659,7 +655,7 @@
     margin-right: 10px;
   }
 }
-/* my css */
+
 .section3-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -680,6 +676,7 @@
   display: flex;
   flex-direction: column;
 }
+
 @media (min-width: 768px) {
   .section3-right-links {
     display: block;
@@ -687,11 +684,13 @@
     position: absolute;
     right: 55px;
   }
+
   .section3-links {
     display: flex;
     margin: 20px;
     padding-left: 24px;
   }
+
   .section3-link::after {
     content: "|";
     margin-left: 10px;
@@ -702,12 +701,6 @@
   }
 }
 
-.section3-right-links a {
-  font-weight: 100;
-  padding: 2px;
-  color: rgb(255, 115, 0);
-  text-decoration: none;
-}
 .section3-latest-item {
   background: #f42;
   color: #fff;
