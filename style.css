@@ -6,7 +6,7 @@
 
 .nav-one {
   display: flex;
-  background-color: rgb(19,19,19);
+  background-color: rgb(19, 19, 19);
   height: 32px;
   width: 100%;
   overflow: hidden;
@@ -18,7 +18,7 @@
   list-style-type: none;
 }
 
-.nav-one a{
+.nav-one a {
   text-decoration: none;
   margin: 5px;
   font-size: small;
@@ -41,7 +41,7 @@
 .left-menu ul li:hover .submenu1 {
   display: block;
   position: absolute;
-  background: rgb(19,19,19);
+  background: rgb(19, 19, 19);
   margin-top: 1px;
   margin-left: 15px;
   padding: 10px;
@@ -50,17 +50,16 @@
 .left-menu ul li:hover .submenu1 ul {
   display: block;
 }
- 
+
 .left-menu {
   display: flex;
   align-items: center;
   width: 70%;
   margin-left: 15px;
 }
-  
 .right-menu {
   display: flex;
-  justify-content: flex-end;  
+  justify-content: flex-end;
   align-items: center;
   width: 30%;
   margin-right: 15px;
@@ -68,16 +67,16 @@
 
 .nav-two {
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
   align-items: center;
-  background-color: rgb(254,254,254);
+  background-color: rgb(254, 254, 254);
   height: 45px;
   overflow: hidden;
   width: 100%;
   position: absolute;
   top: 32px;
 }
-  
+
 .nav-two ul {
   display: flex;
   justify-content: flex-start;
@@ -97,23 +96,22 @@
   font-size: 14px;
   font-weight: 500;
   line-height: 14px;
-  color: rgb(170,170,170);
+  color: rgb(170, 170, 170);
   font-family: "Shentox", sans-serif;
 }
 
 .search {
   margin-right: 15px;
   opacity: 0.5;
-  
 }
 
 .yellow-line a {
-  background-color: rgb(255,221,51);
+  background-color: rgb(255, 221, 51);
   display: block;
   text-decoration: none;
   padding: 6px 20px;
   font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
-  font-size: 13px; 
+  font-size: 13px;
   font-weight: 400;
   line-height: 21px;
   color: black;
@@ -122,14 +120,14 @@
   top: 77px;
 }
 
-
 .top-images-container {
   display: grid;
   height: 70vh;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  grid-template-areas: "left-image left-image right-top-image" 
-                       "left-image left-image right-bottom-image";
+  grid-template-areas:
+    "left-image left-image right-top-image"
+    "left-image left-image right-bottom-image";
   grid-gap: 0.5rem;
   margin: 80px 10px 60px 10px;
 }
@@ -137,7 +135,7 @@
 .left-image {
   grid-area: left-image;
   background: linear-gradient(to right bottom, #bd2f2f, #192127);
-  background-image: url('images/kia-niro-tesla-model-s-ev-future-electric-car-jd-power.jpg');
+  background-image: url("images/kia-niro-tesla-model-s-ev-future-electric-car-jd-power.jpg");
   background-size: cover;
   color: white;
 }
@@ -151,26 +149,27 @@
 }
 
 .right-bottom-image {
-  background-color: crimson; 
+  background-color: crimson;
   grid-area: right-bottom-image;
   background-image: url(images/image);
   background-size: cover;
-  color: white
+  color: white;
 }
 
 .news-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  grid-template-areas: "news1 news2 news3 news4" 
-                       "news5 news6 news7 news8";
+  grid-template-areas:
+    "news1 news2 news3 news4"
+    "news5 news6 news7 news8";
 
   grid-gap: 0.5rem;
   margin: 25px 100px 50px 100px;
 }
 
 .news-container h3 {
-  font-family:  "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+  font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
   font-size: 16px;
   font-weight: 700;
   line-height: 20px;
@@ -226,10 +225,10 @@
 .news8 {
   grid-area: news8;
   background-size: cover;
-} 
+}
 
 .news-image {
-  width: 100%;  
+  width: 100%;
   height: 140px;
 }
 
@@ -246,15 +245,16 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  grid-template-areas: "deal1 deal2 deal3 deal4" 
-                       "deal5 deal6 deal7 deal8";
+  grid-template-areas:
+    "deal1 deal2 deal3 deal4"
+    "deal5 deal6 deal7 deal8";
 
   grid-gap: 0.5rem;
   margin: 25px 100px 50px 100px;
 }
 
 .deals-container h3 {
-  font-family:  "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+  font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
   font-size: 16px;
   font-weight: 700;
   line-height: 20px;
@@ -306,10 +306,10 @@
 .deal8 {
   grid-area: deal8;
   background-size: cover;
-} 
+}
 
 .deal-image {
-  width: 100%;  
+  width: 100%;
   height: 200px;
 }
 
@@ -338,7 +338,7 @@
   text-decoration: line-through;
 }
 
-.footer-container{
+.footer-container {
   display: flex;
   flex-direction: column;
 }
@@ -346,13 +346,13 @@
 .footer-one {
   width: 100%;
   height: 170px;
-  background-color: rgb(19,19,19);
+  background-color: rgb(19, 19, 19);
 }
 
 .footer-two {
   width: 100%;
   height: 90px;
-  background-color: rgb(0,0,0);
+  background-color: rgb(0, 0, 0);
 }
 
 .icons-container {
@@ -364,7 +364,7 @@
 .circle {
   width: 45px;
   height: 45px;
-  background-color: rgb(51,51,51);
+  background-color: rgb(51, 51, 51);
   border-radius: 50%;
   margin: 10px;
   margin-top: 40px;
@@ -378,18 +378,18 @@
 }
 
 .circle:hover {
-  background-color: rgb(0,0,0);
+  background-color: rgb(0, 0, 0);
 }
 
-.footer-links ul{
+.footer-links ul {
   display: flex;
   justify-content: center;
-  list-style: none; 
+  list-style: none;
   margin-top: 20px;
 }
 
-.footer-links a{
-  color:rgb(170, 170, 170);
+.footer-links a {
+  color: rgb(170, 170, 170);
   text-decoration: none;
   font-family: Shentox, sans-serif;
   font-size: 13px;
@@ -402,19 +402,18 @@
   color: white;
 }
 
-
 .footer-two {
   display: flex;
   justify-content: center;
   align-items: center;
-} 
+}
 
 .footer-logo img {
   height: 8px;
 }
 
 .footer-text p {
-  font-family:  "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+  font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
   color: rgb(170, 170, 170);
   font-size: 13px;
   font-weight: 400;
@@ -430,241 +429,278 @@
 }
 
 @media only screen and (max-width: 768px) {
-.top-images-container {
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-template-areas: "left-image" "right-top-image" "right-bottom-image";
-  margin-top: 102px;
-}
-}
-
-@media only screen and (max-width: 1100px){
-.news-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr; 
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-template-areas: "news1 news2 news3" 
-                       "news4 news5 news6"
-                       "news7 news8 news9";
-  width: auto;
-
-  grid-gap: 0.5rem;
-  margin: 25px 20px 50px 20px;
+  .top-images-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "left-image" "right-top-image" "right-bottom-image";
+    margin-top: 102px;
+  }
 }
 
-.deals-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr; 
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-template-areas: "deal1 deal2 deal3" 
-                       "deal4 deal5 deal6"
-                       "deal7 deal8 deal9";
-  width: auto;
+@media only screen and (max-width: 1100px) {
+  .news-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+      "news1 news2 news3"
+      "news4 news5 news6"
+      "news7 news8 news9";
+    width: auto;
 
-  grid-gap: 0.5rem;
-  margin: 25px 20px 50px 20px;
-}
-}
+    grid-gap: 0.5rem;
+    margin: 25px 20px 50px 20px;
+  }
 
-@media only screen and (max-width: 768px) {
-.nav-one {
-  display: none;
-}
-.nav-two img {
-  display: block;
-}
-.nav-two {
-  display: none;
-}
-.yellow-line a {
-  background-color: rgb(255,221,51);
-  display: flex;
-  text-decoration: none;
-  justify-content: center;
-  align-items: center;
-  padding: 6px 20px;
-  font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
-  font-size: 13px; 
-  font-weight: 400;
-  line-height: 21px;
-  color: black;
-  position: fixed;
-  width: 100%;
-  top: 50px;
-  height: 50px;
-}
-.nav-three {
- display: flex;
- justify-content: space-between;
- align-items: center;
- width: 100%;
- background-color: white;
- top: 0px;
- margin-right: 10px;
- position: fixed;
-}
+  .deals-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+      "deal1 deal2 deal3"
+      "deal4 deal5 deal6"
+      "deal7 deal8 deal9";
+    width: auto;
+
+    grid-gap: 0.5rem;
+    margin: 25px 20px 50px 20px;
+  }
 }
 
 @media only screen and (max-width: 768px) {
-.news-container {
-  display: grid;
-  grid-template-columns:1fr; 
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-areas: "news1" "news2" "news3" "news4" "news5" "news6" "news7" "news8" "news9";
-  width: 100%;
-  margin-left: 20px;
-  margin-right: 20px;
+  .nav-one {
+    display: none;
+  }
+  .nav-two img {
+    display: block;
+  }
+  .nav-two {
+    display: none;
+  }
+  .yellow-line a {
+    background-color: rgb(255, 221, 51);
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 20px;
+    font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+    font-size: 13px;
+    font-size: 13px;
+    font-size: 13px;
+    font-size: 13px;
+    font-size: 13px;
+    font-size: 13px;
+    font-size: 13px;
+    font-size: 13px;
+    font-size: 13px;
+    font-size: 13px;
+    font-size: 13px;
+    font-size: 13px;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 21px;
+    color: black;
+    position: fixed;
+    width: 100%;
+    top: 50px;
+    height: 50px;
+  }
+  .nav-three {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+    top: 0px;
+    margin-right: 10px;
+    position: fixed;
+  }
 }
 
-.news-title h2 {
-  margin-left: 20px;
-  font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
-  font-size: 28px;
-  margin-top: 20px;
-  font-weight: 700px;
-  line-height: 18px;
-}
- 
-.news1 img {
-  width: 80px;
-  height: 80px;
-  float: left;
-  margin-right: 10px;
-}
+@media only screen and (max-width: 768px) {
+  .news-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "news1" "news2" "news3" "news4" "news5" "news6" "news7" "news8" "news9";
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
 
-.news2 img {
-  width: 80px;
-  height: 80px;
-  float: left;
-  margin-right: 10px;
-}
+  .news-title h2 {
+    margin-left: 20px;
+    font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+    font-size: 28px;
+    margin-top: 20px;
+    font-weight: 700px;
+    line-height: 18px;
+  }
 
-.news3 img {
-  width: 80px;
-  height: 80px;
-  float: left;
-  margin-right: 10px;
-}
+  .news1 img {
+    width: 80px;
+    height: 80px;
+    float: left;
+    margin-right: 10px;
+  }
 
-.news4 img {
-  width: 80px;
-  height: 80px;
-  float: left;
-  margin-right: 10px;
-}
+  .news2 img {
+    width: 80px;
+    height: 80px;
+    float: left;
+    margin-right: 10px;
+  }
 
-.news5 img {
-  width: 80px;
-  height: 80px;
-  float: left;
-  margin-right: 10px;
-}
+  .news3 img {
+    width: 80px;
+    height: 80px;
+    float: left;
+    margin-right: 10px;
+  }
 
-.news6 img {
-  width: 80px;
-  height: 80px;
-  float: left;
-  margin-right: 10px;
-}
+  .news4 img {
+    width: 80px;
+    height: 80px;
+    float: left;
+    margin-right: 10px;
+  }
 
-.news7 img {
-  width: 80px;
-  height: 80px;
-  float: left;
-  margin-right: 10px;
-}
+  .news5 img {
+    width: 80px;
+    height: 80px;
+    float: left;
+    margin-right: 10px;
+  }
 
-.news8 img {
-  width: 80px;
-  height: 80px;
-  float: left;
-  margin-right: 10px;
-}
+  .news6 img {
+    width: 80px;
+    height: 80px;
+    float: left;
+    margin-right: 10px;
+  }
 
-.deals-container {
-  display: grid;
-  grid-template-columns:1fr; 
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-areas: "deal1" "deal2" "deal3" "deal4" "deal5" "deal6" "deal7" "deal8" "deal9";
-  width: 100%;
-  margin-left: 20px;
-  margin-right: 20px;
-}
+  .news7 img {
+    width: 80px;
+    height: 80px;
+    float: left;
+    margin-right: 10px;
+  }
 
-.deal-title h2 {
-  margin-left: 20px;
-  font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
-  font-size: 28px;
-  margin-top: 20px;
-  font-weight: 700px;
-  line-height: 18px;
-}
- 
-.deal1 img {
-  width: 80px;
-  height: 80px;
-  float: left;
-  margin-right: 10px;
-}
+  .news8 img {
+    width: 80px;
+    height: 80px;
+    float: left;
+    margin-right: 10px;
+  }
 
-.deal2 img {
-  width: 80px;
-  height: 80px;
-  float: left;
-  margin-right: 10px;
-}
+  .deals-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "deal1" "deal2" "deal3" "deal4" "deal5" "deal6" "deal7" "deal8" "deal9";
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
 
-.deal3 img {
-  width: 80px;
-  height: 80px;
-  float: left;
-  margin-right: 10px;
-}
+  .deal-title h2 {
+    margin-left: 20px;
+    font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+    font-size: 28px;
+    margin-top: 20px;
+    font-weight: 700px;
+    line-height: 18px;
+  }
 
-.deal4 img {
-  width: 80px;
-  height: 80px;
-  float: left;
-  margin-right: 10px;
-}
+  .deal1 img {
+    width: 80px;
+    height: 80px;
+    float: left;
+    margin-right: 10px;
+  }
 
-.deal5 img {
-  width: 80px;
-  height: 80px;
-  float: left;
-  margin-right: 10px;
-}
+  .deal2 img {
+    width: 80px;
+    height: 80px;
+    float: left;
+    margin-right: 10px;
+  }
 
-.deal6 img {
-  width: 80px;
-  height: 80px;
-  float: left;
-  margin-right: 10px;
-}
+  .deal3 img {
+    width: 80px;
+    height: 80px;
+    float: left;
+    margin-right: 10px;
+  }
 
-.deal7 img {
-  width: 80px;
-  height: 80px;
-  float: left;
-  margin-right: 10px;
-}
+  .deal4 img {
+    width: 80px;
+    height: 80px;
+    float: left;
+    margin-right: 10px;
+  }
 
-.deal8 img {
-  width: 80px;
-  height: 80px;
-  float: left;
-  margin-right: 10px;
-}
+  .deal5 img {
+    width: 80px;
+    height: 80px;
+    float: left;
+    margin-right: 10px;
+  }
 
+  .deal6 img {
+    width: 80px;
+    height: 80px;
+    float: left;
+    margin-right: 10px;
+  }
+
+  .deal7 img {
+    width: 80px;
+    height: 80px;
+    float: left;
+    margin-right: 10px;
+  }
+
+  .deal8 img {
+    width: 80px;
+    height: 80px;
+    float: left;
+    margin-right: 10px;
+  }
 }
 /* my css */
 .section3-container {
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr;
   grid-template-areas: "section3-items section3-items section3-items section3-items";
   margin: 20px 100px;
-} 
+}
 
 .section3-header {
   color: red;
@@ -672,13 +708,11 @@
   font-weight: bold;
   box-sizing: border-box;
   font-size: 20px;
-
 }
 
 .section3-right-links {
   display: flex;
   flex-direction: column;
-
 }
 @media (min-width: 768px) {
   .section3-right-links {
@@ -687,15 +721,12 @@
     position: absolute;
     right: 55px;
   }
-  .section3-link:not(:first-of-type):after {
-    display: inline-block;
-}
   .section3-links {
     display: flex;
     margin: 20px;
     padding-left: 24px;
   }
-  .section3-link::after{
+  .section3-link::after {
     content: "|";
     margin-left: 10px;
     margin-right: 10px;
@@ -710,25 +741,24 @@
   padding: 2px;
   color: rgb(255, 115, 0);
   text-decoration: none;
-  
 }
 .section3-latest-item {
   background: #f42;
-    color: #fff;
-    padding: 10.6666666667px 16px 10.6666666667px 84px;
-    margin: 0!important;
-    font-size: 18px!important;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-} 
+  color: #fff;
+  padding: 10.6666666667px 16px 10.6666666667px 84px;
+  margin: 0 !important;
+  font-size: 18px !important;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 .section3-items {
-  position: relative; 
-  margin-top: 20px; 
+  position: relative;
+  margin-top: 20px;
   background-color: pink;
   margin: 10px;
   max-width: 280px;
-} 
+}
 @media (min-width: 768px) {
   .sections3-items {
     flex: 75%;
@@ -742,10 +772,10 @@
 
 .sections3-items a {
   text-decoration: none;
-    line-height: 30px;
+  line-height: 30px;
 }
-.story-line{
-  border-top: 1px solid rgba(255,68,34,.25);
+.story-line {
+  border-top: 1px solid rgba(255, 68, 34, 0.25);
   margin-top: 10px;
   padding-top: 10px;
   padding: 16px;
@@ -753,18 +783,18 @@
   font-size: 12px;
   line-height: 18px;
 }
-.story-line li{
+.story-line li {
   display: block;
   float: left;
 }
 
-.story-card{
+.story-card {
   margin: 0;
-    padding: 16px;
-    border: 0;
-    font: inherit;
-    font-size: 100%;
-    vertical-align: baseline;
+  padding: 16px;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
 }
 .section3-items img {
   width: 60px;
@@ -782,18 +812,19 @@
 .section3-fund {
   padding: 10.6666666667px 16px 10.6666666667px 84px;
   color: #000;
-  background: rgba(255,68,34,.08);
+  background: rgba(255, 68, 34, 0.08);
   margin: 0;
-  font-family: Avalon,sans-serif;
+  font-family: Avalon, sans-serif;
   text-decoration: none;
 }
 .section4-container {
-  display:grid;
+  display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
-  grid-template-areas: "section4-subtitle1 section4-subtitle2 section4-subtitle3"
-                       "section4-subtitle4 section4-subtitle5 section4-subtitle6"
-                       "section4-subtitle7 section4-subtitle8 section4-subtitle9";
+  grid-template-areas:
+    "section4-subtitle1 section4-subtitle2 section4-subtitle3"
+    "section4-subtitle4 section4-subtitle5 section4-subtitle6"
+    "section4-subtitle7 section4-subtitle8 section4-subtitle9";
   grid-gap: 20px;
   font-family: Roboto, sans-serif;
   margin: 20px 100px;
@@ -823,7 +854,6 @@
   text-decoration: none;
 }
 
-
 .section4-subtitle1 a {
   font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
   font-size: 20px;
@@ -837,8 +867,8 @@
   font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
   font-size: 14px;
   font-weight: 400;
-  line-height:  21px;
-  color: rgb(85, 85, 85);  
+  line-height: 21px;
+  color: rgb(85, 85, 85);
 }
 
 .section4-subtitle2 {
@@ -859,7 +889,7 @@
 .section4-subtitle3 {
   grid-area: section4-subtitle3;
   background-size: cover;
-  background-image:url(./images/google-logo-podium-796x398.png);
+  background-image: url(./images/google-logo-podium-796x398.png);
   min-height: 300px;
   background-size: cover;
   display: flex;
@@ -904,7 +934,7 @@
 .section4-subtitle6 {
   grid-area: section4-subtitle6;
   background-size: cover;
-  background-image: url(./images/Untitled-design-2021-01-22T103446.744-516x270\ \(1\).png);
+  background-image: url(./images/Untitled-design-2021-01-22T103446.744-516x270\\.png);
   min-height: 300px;
   background-size: cover;
   display: flex;
@@ -919,7 +949,7 @@
 .section4-subtitle7 {
   grid-area: section4-subtitle7;
   background-size: cover;
-  background-image: url(./images/Untitled-design-2021-01-22T134049.708-516x270\ \(2\).png);
+  background-image: url(./images/Untitled-design-2021-01-22T134049.708-516x270\\.png);
   min-height: 300px;
   background-size: cover;
   display: flex;
@@ -984,159 +1014,8 @@
   margin: auto;
   padding: 15px;
   font-size: 14px;
-  
 }
 .section4-second-container img {
   width: 100px;
   height: 100px;
 }
-
-/* .section4-subtitle1 {
-  background-image: url(./images/1-copy-38-516x270.jpg);
-  min-height: 300px;
-  background-size: cover;
-  display: flex;
-  height: 100%;
-  justify-content: flex-end;
-  flex-direction: column;
-  color: white;
-  padding: 10px;
-  align-items: flex-start;
-  text-decoration: none;
-
-}
-.section4-subtitle2 {
-  background-image: url(./images/amplified-368x276.jpg);
-  min-height: 300px;
-  background-size: cover;
-  display: flex;
-  height: 100%;
-  justify-content: flex-end;
-  flex-direction: column;
-  color: white;
-  padding: 10px;
-  align-items: flex-start;
-
-}
-.section4-subtitle3 {
-  background-image:url(./images/google-logo-podium-796x398.png);
-  min-height: 300px;
-  background-size: cover;
-  display: flex;
-  height: 100%;
-  justify-content: flex-end;
-  flex-direction: column;
-  color: white;
-  padding: 10px;
-  align-items: flex-start;
-
-
-}
-.section4-subtitle4 {
-  background-image: url(./images/kia-niro-tesla-model-s-ev-future-electric-car-jd-power.jpg);
-  min-height: 300px;
-  background-size: cover;
-  display: flex;
-  height: 100%;
-  justify-content: flex-end;
-  flex-direction: column;
-  color: white;
-  padding: 10px;
-  align-items: flex-start;
-
-}
-.section4-subtitle5 {
-  background-image: url(./images/slack-distraction-productivity-gq-258x135.png);
-  min-height: 300px;
-  background-size: cover;
-  display: flex;
-  height: 100%;
-  justify-content: flex-end;
-  flex-direction: column;
-  color: white;
-  padding: 10px;
-  align-items: flex-start;
-
-}
-.section4-subtitle6 {
-  background-image: url(./images/Untitled-design-2021-01-22T103446.744-516x270\ \(1\).png);
-  min-height: 300px;
-  background-size: cover;
-  display: flex;
-  height: 100%;
-  justify-content: flex-end;
-  flex-direction: column;
-  color: white;
-  padding: 10px;
-  align-items: flex-start;
-
-}
-.section4-subtitle7 {
-  background-image: url(./images/Untitled-design-2021-01-22T134049.708-516x270\ \(2\).png);
-  min-height: 300px;
-  background-size: cover;
-  display: flex;
-  height: 100%;
-  justify-content: flex-end;
-  flex-direction: column;
-  color: white;
-  padding: 10px;
-  align-items: flex-start;
-
-}
-.section4-subtitle8 {
-  background-image: url(./images/robotgod-499x270.jpg);
-  min-height: 300px;
-  background-size: cover;
-  display: flex;
-  height: 100%;
-  justify-content: flex-end;
-  flex-direction: column;
-  color: white;
-  padding: 10px;
-  align-items: flex-start;
-
-}
-.section4-subtitle9 {
-  background-image: url(./images/Snag_74c520-796x421.png);
-  min-height: 300px;
-  background-size: cover;
-  display: flex;
-  height: 100%;
-  justify-content: flex-end;
-  flex-direction: column;
-  color: white;
-  padding: 10px;
-  align-items: flex-start;
-
-}
-.section4-title h3 {
-    display: block;
-    font-size: 1.17em;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
-    color: white;
-}
-.section4-items {
-    font-weight: bold;
-    text-decoration: none;
-    color: rgb(255, 60, 0);
-    margin: 15px 0;
-    font-size: 20px;
-    padding: 10px;
-}
-.section-title p {
-  font-size: 20px;
-}
-
-.section4-items h2 {
-  text-decoration: none;
-  letter-spacing: -.015em;
-}
-.section4-paragraph {
-  text-decoration: none;
-  color: white;
-} */
