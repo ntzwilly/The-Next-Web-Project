@@ -951,7 +951,6 @@ ul {
       "deal7 deal8 deal9";
     width: auto;
     grid-gap: 0.5rem;
-   
   }
 }
 
@@ -965,12 +964,12 @@ ul {
     margin-left: 10px;
   }
 
-  .deals-title h2{
+  .deals-title h2 {
     margin-left: 10px;
     font-size: 18px;
   }
 
-  .deals-title p{
+  .deals-title p {
     padding-top: 7px;
     right: 20px;
   }
