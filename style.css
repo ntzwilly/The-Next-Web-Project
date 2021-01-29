@@ -67,7 +67,7 @@ a {
 .header > a {
   width: 100px;
   background-color: #000;
-  background-image: url("../images/tnw.svg");
+  background-image: url("images/tnw.svg");
   background-repeat: no-repeat;
   background-size: 60px auto;
   background-position: 50% 50%;
@@ -951,7 +951,7 @@ ul {
       "deal7 deal8 deal9";
     width: auto;
     grid-gap: 0.5rem;
-    margin: 25px 20px 50px 20px;
+   
   }
 }
 
@@ -963,6 +963,16 @@ ul {
     grid-template-areas: "news1" "news2" "news3" "news4" "news5" "news6" "news7" "news8" "news9";
     width: 100%;
     margin-left: 10px;
+  }
+
+  .deals-title h2{
+    margin-left: 10px;
+    font-size: 18px;
+  }
+
+  .deals-title p{
+    padding-top: 7px;
+    right: 20px;
   }
 
   .news-container h3 {
