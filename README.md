@@ -4,7 +4,7 @@
 
 > Copy of a page from TNW website
 
-![TNWscreenshot](https://user-images.githubusercontent.com/22328716/106025754-f5dfbc00-60c0-11eb-9554-28ee6994e549.png)
+![Screenshot from 2021-01-29 09-52-00](https://user-images.githubusercontent.com/9049260/106247254-f0e15080-6217-11eb-97a5-2ef389100165.png)
 
 This project includes the design of a responsive web page using Media Queries CSS grid and flexbox
 
